@@ -1,0 +1,28 @@
+@use '../variables' as var;
+.divider
+{
+    width: 10rem;
+    border: 1px solid #333;
+    height: 0.25rem;
+}
+.container
+{
+    max-width: map-get($map: var.$breakpoint, $key: xl);
+    margin: auto;
+}
+.p-center
+{
+	justify-content: center;
+}
+.v-center
+{
+	align-items: center;
+}
+.t-center
+{
+    text-align: center;
+}
+.before-content
+{
+    //
+}

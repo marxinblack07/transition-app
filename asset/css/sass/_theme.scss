@@ -1,0 +1,20 @@
+$color-maps:
+(
+    //  p stands for primary.
+    main:       #2188A9,
+    p1:         #4B6587,
+    p2:         #9B4865,
+    p3:         #005F58,
+    b1:         #F0E5CF,
+    b2:         #C8C6C6,
+    b3:         #F7F6F2,
+    h1:         #EEE8A9,
+);
+$color-main:    map-get($map: $color-maps, $key: main);
+$color-p1:      map-get($map: $color-maps, $key: p1);
+$color-p2:      map-get($map: $color-maps, $key: p2);
+$color-p3:      map-get($map: $color-maps, $key: p3);
+$color-b1:      map-get($map: $color-maps, $key: b1);
+$color-b2:      map-get($map: $color-maps, $key: b2);
+$color-b3:      map-get($map: $color-maps, $key: b3);
+$color-h1:      map-get($map: $color-maps, $key: h1);
